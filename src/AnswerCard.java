@@ -1,16 +1,13 @@
 
 public class AnswerCard
 {
-    private String display;
     private String content;
+    private int amount;
     
-    public String getDisplay()
+    public AnswerCard(String content, int amount)
     {
-        return display;
-    }
-    public void setDisplay(String display)
-    {
-        this.display = display;
+	this.content = content;
+	this.amount = amount;
     }
     public String getContent()
     {
