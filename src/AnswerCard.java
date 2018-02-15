@@ -17,6 +17,14 @@ public class AnswerCard
     {
         this.content = content;
     }
+    public int getAmount()
+    {
+        return amount;
+    }
+    public void setAmount(int amount)
+    {
+        this.amount = amount;
+    }
     
     
 }
