@@ -1,20 +1,17 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Board
 {
-    Column c1;
-    Column c2;
-    Column c3;
-    Column c4;
-    Column c5;
-    Column c6;
+    List<Column> columns = new ArrayList<>();
     
-    public Board()
+    public Board(List columns)
     {
-	
+	this.columns = columns;
     }
     
     public void addColumn(Column c)
     {
-	
+	columns.add(c);
     }
 }

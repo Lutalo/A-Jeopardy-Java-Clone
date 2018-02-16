@@ -11,10 +11,8 @@ public class Column
 	this.cards = cards;
     }
     
-    public String getFirst()
+    public String getCard(int key)
     {
-	return cards.get(100);
-    }
-    
-    
+	return cards.get(key);
+    }    
 }
